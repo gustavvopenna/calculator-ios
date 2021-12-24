@@ -45,7 +45,7 @@ export const styles = StyleSheet.create({
   },
   buttonText: {
     color: 'black',
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: '600',
     textAlign: 'center'
   }
