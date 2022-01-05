@@ -6,7 +6,7 @@ export const pallete = {
   orange: '#ff9427'
 }
 
-const BUTTON_SIZE: number = 80
+const BUTTON_SIZE = 80
 
 export const styles = StyleSheet.create({
   background: {
@@ -32,12 +32,11 @@ export const styles = StyleSheet.create({
     marginVertical: 10,
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-around'
+    justifyContent: 'space-between'
   },
   button: {
     width: BUTTON_SIZE,
     height: BUTTON_SIZE,
-    marginHorizontal: 10,
     borderRadius: BUTTON_SIZE * 2,
     backgroundColor: '#9b9b9b',
     display: 'flex',
